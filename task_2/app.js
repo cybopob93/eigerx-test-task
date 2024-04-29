@@ -22,7 +22,3 @@ app.use("/trades", tradesRouter);
 app.use("/", indexRouter);
 
 module.exports = app;
-
-app.listen(3000, "0.0.0.0", () =>
-  console.info(`Server listening 0.0.0.0:3000`),
-);
